@@ -1,22 +1,23 @@
 import React from 'react'
 import './Product.css'
 
-function Product(){
+function Product({title, image , price ,rating}){
  return(
      <div className="product">
          <div className="product__info">
-         <p> Prooduct name</p>
+         <p>{title}</p>
          <p className="product__price">
              <small>Rs</small>
-             <strong> 200</strong>
+             <strong> {price}</strong>
          </p>
          <div className="rating"> 
          <span>⭐ </span>
-         <span>⭐ </span>
+         <span> {rating} </span>
          <span>⭐ </span>
          </div>
          </div>
-
+         <img  className="product__image" src={image}></img>
+         <button className="product__bucket">Add to bucket </button>
      
      </div>
  )
