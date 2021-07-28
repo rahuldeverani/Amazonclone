@@ -1,0 +1,6 @@
+.home__image {
+  margin-bottom: -100px;
+  width: 100%;
+  z-index: -1;
+  height: auto;
+}
