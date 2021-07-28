@@ -33,3 +33,27 @@
   border: none;
   width: 100%;
 }
+
+.header__option {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__optionBasket {
+  color: white;
+  margin-top: 5%;
+}
+.header__optionLineOne {
+  font-size: 10px;
+}
+.header__optionLineTwo {
+  font-size: 15px;
+  font-weight: 900;
+}
