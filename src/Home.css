@@ -4,4 +4,6 @@
 }
 .home__row {
   display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
 }

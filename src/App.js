@@ -10,11 +10,14 @@ return (
     <Router>
       <Switch>
         <Route path="/" exact>
-       
-        <Header />
-        <Home />
+            <Header />
+            <Home />
         </Route>
- 
+      
+        <Route path='/checkout'>
+          <div> <h1> checkout page</h1></div>
+        </Route>
+
       </Switch>
     </Router>
   </div>

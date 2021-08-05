@@ -11,9 +11,11 @@ function Product({title, image , price ,rating}){
              <strong> {price}</strong>
          </p>
          <div className="rating"> 
-         <span>⭐ </span>
-         <span> {rating} </span>
-         <span>⭐ </span>
+         {Array(rating)
+            .fill()
+            .map((_, i) => (
+              <p>⭐</p>
+            ))}
          </div>
          </div>
          <img  className="product__image" src={image}></img>
@@ -25,3 +27,6 @@ function Product({title, image , price ,rating}){
 }
 
 export default Product;
+
+
+
