@@ -3,8 +3,8 @@
 This is a sample project to learn React. Worked on front-end only. Need to integrate backened.
 
 ### Steps to Run:
-npm install 
-npm start
+1) npm install 
+2) npm start
 
 ### Screenshot of the work done till now:
 
